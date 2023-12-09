@@ -1,0 +1,11 @@
+{% extends 'headerPage.html' %}
+
+{% block content %}
+
+{% for i in listOfImagesPath %}
+
+<img src="{{i}}"><br/>
+{% endfor %}
+<!--<h3> The list of uploaded images {{listOfImagesPath}}</h3>-->
+
+{% endblock %}
